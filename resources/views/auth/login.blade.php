@@ -62,10 +62,10 @@
                         </div>
                     </form>
                 </div>
-
+                {{-- <a href="" class="btn btn-primary">{{url('/redirect')}}</a> --}}
                 <div class="panel-heading">Login with Facebook</div>
                 <div class="panel-body">
-                    <a class="btn btn-primary" href="/login/facebook">
+                    <a class="btn btn-primary" href="{{url('/login/facebook')}}">
                         Facebook Login
                     </a>
                 </div>
